@@ -6,6 +6,7 @@ daisyUI 5 + Tailwind CSS 4 로 빌드한 결과물 한 파일과, 그 파일이 
 ```
 css/app.css    빌드 결과 (색 테마 · 국기 아이콘 · daisyUI · Tailwind 유틸리티)
 fonts/         Open Sans · Shadows Into Light (woff2, unicode-range 조각)
+               title-*.woff2 — 첫 화면 제목 글자만 남긴 Geist · Pretendard (서체 이름 Kilho Title *)
 ```
 
 `css/app.css` 안의 서체 주소는 `../fonts/…` 상대경로라 폴더 구조를 그대로 두고 씁니다.
@@ -29,4 +30,6 @@ fonts/         Open Sans · Shadows Into Light (woff2, unicode-range 조각)
 | [Tailwind CSS](https://tailwindcss.com) | MIT |
 | [daisyUI](https://daisyui.com) | MIT |
 | [Open Sans](https://fonts.google.com/specimen/Open+Sans) · [Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light) | SIL Open Font License 1.1 |
+| [Geist](https://github.com/vercel/geist-font) (`fonts/title-latin.woff2`, 글자 일부만) | SIL Open Font License 1.1 — `fonts/OFL-Geist.txt` |
+| [Pretendard](https://github.com/orioncactus/pretendard) (`fonts/title-ko.woff2` · `title-ja.woff2`, 글자 일부만) | SIL Open Font License 1.1 — `fonts/OFL-Pretendard.txt`. 예약 이름 조항에 따라 고친 판의 서체 이름은 Kilho Title KO · JA |
 | [flag-icons](https://github.com/lipis/flag-icons) (국기 15개, data URI) | MIT |
