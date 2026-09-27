@@ -1,0 +1,32 @@
+# kilho-css
+
+kilho.net 에서 사용하는 CSS 입니다.
+daisyUI 5 + Tailwind CSS 4 로 빌드한 결과물 한 파일과, 그 파일이 쓰는 서체만 들어 있습니다.
+
+```
+css/app.css    빌드 결과 (색 테마 · 국기 아이콘 · daisyUI · Tailwind 유틸리티)
+fonts/         Open Sans · Shadows Into Light (woff2, unicode-range 조각)
+```
+
+`css/app.css` 안의 서체 주소는 `../fonts/…` 상대경로라 폴더 구조를 그대로 두고 씁니다.
+
+## 사용
+
+`css/app.css` 하나를 `<link rel="stylesheet">` 로 부릅니다. `fonts/` 는 같은 위치 기준으로 함께 둡니다.
+
+테마는 `<html data-theme="kilho">`(밝게) / `<html data-theme="kilho-dark">`(어둡게) 로 고릅니다.
+
+한글은 방문자 시스템 서체(윈도 맑은 고딕 · 맥 애플 SD 고딕 네오)를 씁니다.
+
+## 이 저장소는 빌드 결과만 둡니다
+
+소스와 빌드는 사이트 서버에서 합니다. 이 저장소의 파일을 직접 고치지 마세요 — 다음 배포 때 덮어써집니다.
+
+## 포함된 서드파티
+
+| 이름 | 라이선스 |
+|---|---|
+| [Tailwind CSS](https://tailwindcss.com) | MIT |
+| [daisyUI](https://daisyui.com) | MIT |
+| [Open Sans](https://fonts.google.com/specimen/Open+Sans) · [Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light) | SIL Open Font License 1.1 |
+| [flag-icons](https://github.com/lipis/flag-icons) (국기 15개, data URI) | MIT |
