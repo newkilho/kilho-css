@@ -29,7 +29,15 @@ fonts/         Open Sans · Shadows Into Light (woff2, unicode-range 조각)
 |---|---|
 | [Tailwind CSS](https://tailwindcss.com) | MIT |
 | [daisyUI](https://daisyui.com) | MIT |
-| [Open Sans](https://fonts.google.com/specimen/Open+Sans) · [Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light) | SIL Open Font License 1.1 |
+| [Open Sans](https://fonts.google.com/specimen/Open+Sans) | SIL Open Font License 1.1 — `fonts/OFL-OpenSans.txt` |
+| [Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light) | SIL Open Font License 1.1 — `fonts/OFL-ShadowsIntoLight.txt` |
 | [Geist](https://github.com/vercel/geist-font) (`fonts/title-latin.woff2`, 글자 일부만) | SIL Open Font License 1.1 — `fonts/OFL-Geist.txt` |
 | [Pretendard](https://github.com/orioncactus/pretendard) (`fonts/title-ko.woff2` · `title-ja.woff2`, 글자 일부만) | SIL Open Font License 1.1 — `fonts/OFL-Pretendard.txt`. 예약 이름 조항에 따라 고친 판의 서체 이름은 Kilho Title KO · JA |
 | [flag-icons](https://github.com/lipis/flag-icons) (국기 15개, data URI) | MIT |
+
+MIT 라이선스 코드의 저작권 표시는 `THIRD-PARTY-NOTICES.md` 에 있습니다.
+
+## 라이선스
+
+`css/app.css` 는 [MIT](LICENSE) (Copyright (c) 2026 Kilho Oh) 입니다. 안에 든 서드파티 코드는 위 표의 각 라이선스를 따릅니다.
+`fonts/` 의 서체는 MIT 가 아니라 각 서체의 라이선스(SIL Open Font License 1.1, `fonts/OFL-*.txt`)를 따릅니다.
