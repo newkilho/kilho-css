@@ -1,19 +1,20 @@
 # kilho-css
 
 kilho.net 에서 사용하는 CSS 입니다.
-daisyUI 5 + Tailwind CSS 4 로 빌드한 결과물 한 파일과, 그 파일이 쓰는 서체만 들어 있습니다.
+daisyUI 5 + Tailwind CSS 4 로 빌드한 결과물 두 묶음과, 그 파일들이 쓰는 서체만 들어 있습니다.
 
 ```
-css/app.css    빌드 결과 (색 테마 · 국기 아이콘 · daisyUI · Tailwind 유틸리티)
+css/app.css    kilho.net 묶음 (색 테마 · 국기 아이콘 · daisyUI · Tailwind 유틸리티)
+css/hn.css     블로그 · 게시판 묶음 — 같은 색 · daisyUI · 뼈대에 블로그 · 게시판 전용을 더한 단독 파일(app.css 없이 씀, v1.0.23~)
 fonts/         Open Sans · Shadows Into Light (woff2, unicode-range 조각)
                title-*.woff2 — 첫 화면 제목 글자만 남긴 Geist · Pretendard (서체 이름 Kilho Title *)
 ```
 
-`css/app.css` 안의 서체 주소는 `../fonts/…` 상대경로라 폴더 구조를 그대로 두고 씁니다.
+두 파일 안의 서체 주소는 `../fonts/…` 상대경로라 폴더 구조를 그대로 두고 씁니다.
 
 ## 사용
 
-`css/app.css` 하나를 `<link rel="stylesheet">` 로 부릅니다. `fonts/` 는 같은 위치 기준으로 함께 둡니다.
+사이트에 맞는 묶음 하나(`css/app.css` 또는 `css/hn.css`)를 `<link rel="stylesheet">` 로 부릅니다. `fonts/` 는 같은 위치 기준으로 함께 둡니다.
 
 테마는 `<html data-theme="kilho">`(밝게) / `<html data-theme="kilho-dark">`(어둡게) 로 고릅니다.
 
@@ -39,5 +40,5 @@ MIT 라이선스 코드의 저작권 표시는 `THIRD-PARTY-NOTICES.md` 에 있�
 
 ## 라이선스
 
-`css/app.css` 는 [MIT](LICENSE) (Copyright (c) 2026 Kilho Oh) 입니다. 안에 든 서드파티 코드는 위 표의 각 라이선스를 따릅니다.
+`css/app.css` · `css/hn.css` 는 [MIT](LICENSE) (Copyright (c) 2026 Kilho Oh) 입니다. 안에 든 서드파티 코드는 위 표의 각 라이선스를 따릅니다.
 `fonts/` 의 서체는 MIT 가 아니라 각 서체의 라이선스(SIL Open Font License 1.1, `fonts/OFL-*.txt`)를 따릅니다.
